@@ -8,7 +8,7 @@ on:
       - "testfolder/**"
   pull_request:
     branches:    
-      - 'test'
+      - 'main'
     
 jobs:
   check-bats-version:
