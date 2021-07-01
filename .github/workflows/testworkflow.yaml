@@ -6,6 +6,9 @@ on:
       - 'test'
     paths:
       - "testfolder/**"
+  pull:
+    branches:    
+      - 'test'
     
 jobs:
   check-bats-version:
