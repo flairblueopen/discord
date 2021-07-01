@@ -6,7 +6,7 @@ on:
       - 'test'
     paths:
       - "testfolder/**"
-  pull:
+  pull_request:
     branches:    
       - 'test'
     
